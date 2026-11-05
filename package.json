@@ -1,0 +1,20 @@
+{
+  "name": "feishu-nonstandard-port-probe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A minimal Feishu field shortcut for comparing public nonstandard and standard HTTP ports.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "block-basekit-cli start:field",
+    "build": "block-basekit-cli build:field",
+    "pack": "block-basekit-cli pack:field",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@lark-opdev/block-basekit-server-api": "1.0.6"
+  },
+  "devDependencies": {
+    "@lark-opdev/block-basekit-cli": "1.0.5",
+    "typescript": "5.8.3"
+  }
+}
