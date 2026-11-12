@@ -1,6 +1,6 @@
 {
   "name": "feishu-nonstandard-port-probe",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "description": "A minimal Feishu field shortcut for comparing public nonstandard and standard HTTP ports.",
   "main": "src/index.ts",

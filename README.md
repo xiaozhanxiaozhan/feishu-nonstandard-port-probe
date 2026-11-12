@@ -8,7 +8,7 @@
 
 | 选项 | 固定请求地址 |
 | --- | --- |
-| 查看飞书云端出口 IPv4（默认） | `https://api.ipify.org?format=json` |
+| 查看飞书云端出口 IPv4（默认） | `https://4.ipw.cn/（失败时尝试 https://httpbin.org/ip 与 https://api.ipify.org?format=json）` |
 | HTTPS 8000 | `https://portquiz.takao-tech.com:8000/` |
 | HTTPS 443（对照） | `https://portquiz.takao-tech.com/` |
 | HTTP 8080 | `http://portquiz.net:8080/` |
@@ -37,4 +37,4 @@ npm run pack
 - HTTPS 端口检测服务说明：https://portquiz.takao-tech.com/
 - HTTP 端口检测服务说明：http://portquiz.net/
 
-版本：1.1.0
+版本：1.1.1
